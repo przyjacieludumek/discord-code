@@ -39,6 +39,9 @@ async def on_message(message):
         await message.channel.send("Witaj!")
     elif message.content.startswith('/Pa'):
         await message.channel.send("Papa")
+    elif message.content.startswith('/cos'):
+        await message.channel.send("ccc")
+        
     elif message.content.startswith('/Smile'):
         await message.channel.send(gen_emodji())
     elif message.content.startswith('/Moneta'):
